@@ -1,0 +1,28 @@
+^D:\PROJECTS\FLUTTER\HANAMIKOJI\BUILD\WINDOWS\X64\CMAKEFILES\9DAC116AE26A98EFE598985CF2F950E0\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\ADMIN\Documents\flutter PROJECT_DIR=D:\Projects\Flutter\hanamikoji FLUTTER_ROOT=C:\Users\ADMIN\Documents\flutter FLUTTER_EPHEMERAL_DIR=D:\Projects\Flutter\hanamikoji\windows\flutter\ephemeral PROJECT_DIR=D:\Projects\Flutter\hanamikoji FLUTTER_TARGET=D:\Projects\Flutter\hanamikoji\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8zZjNlNTYwMjM2NTM5YjdlMjcwMmY1YWM3OTBiMmE0NjkxYjMyZDQ5Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Projects\Flutter\hanamikoji\.dart_tool\package_config.json C:/Users/ADMIN/Documents/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\FLUTTER\HANAMIKOJI\BUILD\WINDOWS\X64\CMAKEFILES\29352478111991287C00FCC2D2D59332\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECTS\FLUTTER\HANAMIKOJI\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Projects/Flutter/hanamikoji/windows -BD:/Projects/Flutter/hanamikoji/build/windows/x64 --check-stamp-file D:/Projects/Flutter/hanamikoji/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
